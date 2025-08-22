@@ -35,7 +35,7 @@ AmmFin is a personal finance management application built with Laravel and Filam
 
 1. Clone the repository
 ```bash
-git clone <repository-url> ammfin
+git clone [https://github.com/Ammly/AmmFin.git](https://github.com/Ammly/AmmFin.git) ammfin
 cd ammfin
 ```
 
@@ -59,7 +59,7 @@ cp .env.example .env
 ./vendor/bin/sail artisan key:generate
 ```
 
-6. Start the development environment
+6. Start the app
 ```bash
 ./vendor/bin/sail up -d
 ```
@@ -82,14 +82,8 @@ The application will be available at `http://localhost` with:
 
 To run the development server with hot reloading:
 ```bash
-composer run dev
+./vendor/bin/sail up -w
 ```
-
-This command starts:
-- Laravel development server
-- Queue worker
-- Log monitoring (Laravel Pail)
-- Vite development server with hot reloading
 
 ## License
 
