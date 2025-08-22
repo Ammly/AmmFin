@@ -12,6 +12,10 @@ AmmFin is a personal finance management application built with Laravel and Filam
 - **Admin Dashboard**: Comprehensive admin panel for system management
 - **User Dashboard**: User-friendly interface for personal finance management
 
+## Screenshots
+
+![app dashboard](image.png)
+
 ## Built With
 
 - **Laravel 12** - The PHP framework for web artisans
